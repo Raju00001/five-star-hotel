@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grand Aurum Hotel & Resorts — Where Legends Rest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════ PRELOADER ══════════════ -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">GA</div>
+      <div class="preloader-line"></div>
+      <p class="preloader-text">Grand Aurum</p>
+    </div>
+  </div>
+
+  <!-- ══════════════ CURSOR ══════════════ -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- ══════════════ NAVIGATION ══════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="logo-mark">GA</span>
+        <div class="logo-text">
+          <span class="logo-main">Grand Aurum</span>
+          <span class="logo-sub">Hotel & Resorts</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#dining">Dining</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#booking" class="nav-cta">Book Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mob-link">About</a></li>
+        <li><a href="#rooms" class="mob-link">Rooms</a></li>
+        <li><a href="#amenities" class="mob-link">Amenities</a></li>
+        <li><a href="#dining" class="mob-link">Dining</a></li>
+        <li><a href="#gallery" class="mob-link">Gallery</a></li>
+        <li><a href="#contact" class="mob-link">Contact</a></li>
+        <li><a href="#booking" class="mob-link mob-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" data-aos="fade-down">
+        <span>✦</span> Est. 1924 <span>✦</span>
+      </div>
+      <h1 class="hero-title" data-aos="fade-up">
+        <span class="line-1">Where</span>
+        <span class="line-2">Legends</span>
+        <span class="line-3">Rest</span>
+      </h1>
+      <p class="hero-sub" data-aos="fade-up" data-aos-delay="200">
+        Unrivaled luxury in the heart of the city. Every stay — a masterpiece.
+      </p>
+      <div class="hero-actions" data-aos="fade-up" data-aos-delay="400">
+        <a href="#booking" class="btn-primary">Reserve Your Suite</a>
+        <a href="#about" class="btn-ghost">Explore Hotel</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+        <span class="stat-num" data-count="248">0</span>
+        <span class="stat-label">Luxury Suites</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+        <span class="stat-num" data-count="99">0</span><span class="stat-unit">%</span>
+        <span class="stat-label">Guest Satisfaction</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+        <span class="stat-num" data-count="18">0</span>
+        <span class="stat-label">Award Wins</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+        <span class="stat-num" data-count="100">0</span>
+        <span class="stat-label">Years Legacy</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section id="about" class="section-about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual" data-aos="fade-right">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80" alt="Hotel Lobby" loading="lazy" />
+          </div>
+          <div class="about-img-accent">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=400&q=80" alt="Suite" loading="lazy" />
+          </div>
+          <div class="about-badge-float">
+            <span class="float-num">★★★★★</span>
+            <span class="float-label">Five Star Rated</span>
+          </div>
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <div class="section-eyebrow">Our Story</div>
+          <h2 class="section-title">A Century of <em>Unmatched</em> Elegance</h2>
+          <div class="gold-divider"></div>
+          <p class="about-lead">Since 1924, Grand Aurum has stood as the pinnacle of hospitality — where Art Deco splendor meets contemporary luxury, and every guest is treated as royalty.</p>
+          <p class="about-body">Nestled in the city's most prestigious address, our 248-room masterpiece features curated art collections, Michelin-starred dining, and a spa that redefines wellness. From the grand marble lobby to the sky-high rooftop pool, we craft moments that last a lifetime.</p>
+          <div class="about-features">
+            <div class="feat-item">
+              <div class="feat-icon">◈</div>
+              <div>
+                <strong>Prime Location</strong>
+                <p>Heart of the city, steps from culture</p>
+              </div>
+            </div>
+            <div class="feat-item">
+              <div class="feat-icon">◈</div>
+              <div>
+                <strong>Award-Winning Service</strong>
+                <p>24/7 butler & concierge available</p>
+              </div>
+            </div>
+            <div class="feat-item">
+              <div class="feat-icon">◈</div>
+              <div>
+                <strong>Sustainable Luxury</strong>
+                <p>LEED Gold certified property</p>
+              </div>
+            </div>
+          </div>
+          <a href="#rooms" class="btn-primary">Discover Rooms</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MARQUEE ══════════════ -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Luxury Suites</span><span class="sep">✦</span>
+      <span>Rooftop Pool</span><span class="sep">✦</span>
+      <span>Michelin Dining</span><span class="sep">✦</span>
+      <span>Wellness Spa</span><span class="sep">✦</span>
+      <span>Valet Parking</span><span class="sep">✦</span>
+      <span>Event Spaces</span><span class="sep">✦</span>
+      <span>Private Transfers</span><span class="sep">✦</span>
+      <span>Luxury Suites</span><span class="sep">✦</span>
+      <span>Rooftop Pool</span><span class="sep">✦</span>
+      <span>Michelin Dining</span><span class="sep">✦</span>
+      <span>Wellness Spa</span><span class="sep">✦</span>
+      <span>Valet Parking</span><span class="sep">✦</span>
+      <span>Event Spaces</span><span class="sep">✦</span>
+      <span>Private Transfers</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════════ ROOMS ══════════════ -->
+  <section id="rooms" class="section-rooms">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-eyebrow">Accommodations</div>
+        <h2 class="section-title">Rooms & <em>Suites</em></h2>
+        <div class="gold-divider center"></div>
+        <p class="section-desc">Each room is a sanctuary of calm — where bespoke furnishings, panoramic views, and personal service converge.</p>
+      </div>
+      <div class="rooms-filter" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All Rooms</button>
+        <button class="filter-btn" data-filter="deluxe">Deluxe</button>
+        <button class="filter-btn" data-filter="suite">Suite</button>
+        <button class="filter-btn" data-filter="penthouse">Penthouse</button>
+      </div>
+      <div class="rooms-grid" id="roomsGrid">
+
+        <div class="room-card" data-category="deluxe" data-aos="fade-up" data-aos-delay="0">
+          <div class="room-img-wrap">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80" alt="Deluxe Room" loading="lazy" />
+            <div class="room-tag">Deluxe</div>
+            <div class="room-overlay">
+              <a href="#booking" class="btn-room-overlay">Book This Room</a>
+            </div>
+          </div>
+          <div class="room-info">
+            <div class="room-meta">
+              <span>42 m²</span><span class="dot">·</span>
+              <span>City View</span><span class="dot">·</span>
+              <span>King Bed</span>
+            </div>
+            <h3 class="room-name">Deluxe City Room</h3>
+            <p class="room-desc">Floor-to-ceiling windows with stunning skyline views, Italian marble bathroom, and handcrafted teak furnishings.</p>
+            <div class="room-footer">
+              <div class="room-price"><span class="currency">$</span>480<span class="per">/night</span></div>
+              <a href="#booking" class="btn-reserve">Reserve →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card" data-category="suite" data-aos="fade-up" data-aos-delay="100">
+          <div class="room-img-wrap">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&q=80" alt="Junior Suite" loading="lazy" />
+            <div class="room-tag">Suite</div>
+            <div class="room-overlay">
+              <a href="#booking" class="btn-room-overlay">Book This Room</a>
+            </div>
+          </div>
+          <div class="room-info">
+            <div class="room-meta">
+              <span>78 m²</span><span class="dot">·</span>
+              <span>Ocean View</span><span class="dot">·</span>
+              <span>King Bed</span>
+            </div>
+            <h3 class="room-name">Junior Suite</h3>
+            <p class="room-desc">Expansive living area with dedicated butler service, a soaking tub overlooking the ocean, and curated minibar.</p>
+            <div class="room-footer">
+              <div class="room-price"><span class="currency">$</span>780<span class="per">/night</span></div>
+              <a href="#booking" class="btn-reserve">Reserve →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card" data-category="suite" data-aos="fade-up" data-aos-delay="200">
+          <div class="room-img-wrap">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&q=80" alt="Grand Suite" loading="lazy" />
+            <div class="room-tag room-tag-gold">Grand Suite</div>
+            <div class="room-overlay">
+              <a href="#booking" class="btn-room-overlay">Book This Room</a>
+            </div>
+          </div>
+          <div class="room-info">
+            <div class="room-meta">
+              <span>120 m²</span><span class="dot">·</span>
+              <span>Panoramic View</span><span class="dot">·</span>
+              <span>Twin King</span>
+            </div>
+            <h3 class="room-name">Grand Suite</h3>
+            <p class="room-desc">Two bedrooms, a private dining room, and a wraparound terrace. Perfect for families or extended stays in absolute luxury.</p>
+            <div class="room-footer">
+              <div class="room-price"><span class="currency">$</span>1,200<span class="per">/night</span></div>
+              <a href="#booking" class="btn-reserve">Reserve →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card" data-category="penthouse" data-aos="fade-up" data-aos-delay="300">
+          <div class="room-img-wrap">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Royal Penthouse" loading="lazy" />
+            <div class="room-tag room-tag-platinum">Penthouse</div>
+            <div class="room-overlay">
+              <a href="#booking" class="btn-room-overlay">Book This Room</a>
+            </div>
+          </div>
+          <div class="room-info">
+            <div class="room-meta">
+              <span>320 m²</span><span class="dot">·</span>
+              <span>360° View</span><span class="dot">·</span>
+              <span>Private Pool</span>
+            </div>
+            <h3 class="room-name">Royal Penthouse</h3>
+            <p class="room-desc">The ultimate indulgence — your own rooftop, private chef, Rolls Royce transfer, and dedicated 24/7 butler concierge.</p>
+            <div class="room-footer">
+              <div class="room-price"><span class="currency">$</span>4,800<span class="per">/night</span></div>
+              <a href="#booking" class="btn-reserve">Reserve →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card" data-category="deluxe" data-aos="fade-up" data-aos-delay="100">
+          <div class="room-img-wrap">
+            <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=600&q=80" alt="Superior Room" loading="lazy" />
+            <div class="room-tag">Deluxe</div>
+            <div class="room-overlay">
+              <a href="#booking" class="btn-room-overlay">Book This Room</a>
+            </div>
+          </div>
+          <div class="room-info">
+            <div class="room-meta">
+              <span>55 m²</span><span class="dot">·</span>
+              <span>Garden View</span><span class="dot">·</span>
+              <span>Queen Bed</span>
+            </div>
+            <h3 class="room-name">Superior Garden Room</h3>
+            <p class="room-desc">Tranquil garden views, private balcony, and a rain shower. An oasis of calm in the midst of city energy.</p>
+            <div class="room-footer">
+              <div class="room-price"><span class="currency">$</span>620<span class="per">/night</span></div>
+              <a href="#booking" class="btn-reserve">Reserve →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card" data-category="penthouse" data-aos="fade-up" data-aos-delay="200">
+          <div class="room-img-wrap">
+            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80" alt="Sky Villa" loading="lazy" />
+            <div class="room-tag room-tag-platinum">Penthouse</div>
+            <div class="room-overlay">
+              <a href="#booking" class="btn-room-overlay">Book This Room</a>
+            </div>
+          </div>
+          <div class="room-info">
+            <div class="room-meta">
+              <span>220 m²</span><span class="dot">·</span>
+              <span>Sky View</span><span class="dot">·</span>
+              <span>Jacuzzi</span>
+            </div>
+            <h3 class="room-name">Sky Villa</h3>
+            <p class="room-desc">A floating sanctuary on the 45th floor. Glass floors, a private jacuzzi, and a home cinema system await.</p>
+            <div class="room-footer">
+              <div class="room-price"><span class="currency">$</span>3,200<span class="per">/night</span></div>
+              <a href="#booking" class="btn-reserve">Reserve →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ AMENITIES ══════════════ -->
+  <section id="amenities" class="section-amenities">
+    <div class="amenities-bg-text">LUXURY</div>
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-eyebrow">Experience</div>
+        <h2 class="section-title">World-Class <em>Amenities</em></h2>
+        <div class="gold-divider center"></div>
+      </div>
+      <div class="amenities-grid">
+        <div class="amenity-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="amenity-icon">◉</div>
+          <h3>Infinity Pool</h3>
+          <p>Rooftop infinity pool with panoramic city views, open 6AM to midnight with poolside butler service.</p>
+        </div>
+        <div class="amenity-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="amenity-icon">◈</div>
+          <h3>Aurum Spa</h3>
+          <p>A 3,000 m² sanctuary offering gold therapy, hammam baths, and 22 treatment rooms curated by top therapists.</p>
+        </div>
+        <div class="amenity-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="amenity-icon">◇</div>
+          <h3>Fitness Center</h3>
+          <p>State-of-the-art gym with Technogym equipment, personal trainers, yoga studio, and cryotherapy chambers.</p>
+        </div>
+        <div class="amenity-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="amenity-icon">◆</div>
+          <h3>Business Lounge</h3>
+          <p>Executive floor with private meeting rooms, lightning-fast fiber wifi, and 24-hour secretarial services.</p>
+        </div>
+        <div class="amenity-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="amenity-icon">⬡</div>
+          <h3>Events & Ballroom</h3>
+          <p>Grand Aurum Ballroom seats 800 guests. Ideal for weddings, galas, and international conferences.</p>
+        </div>
+        <div class="amenity-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="amenity-icon">◎</div>
+          <h3>Valet & Transfers</h3>
+          <p>Complimentary valet parking, Rolls Royce airport transfers, and a fleet of luxury vehicles on demand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ DINING ══════════════ -->
+  <section id="dining" class="section-dining">
+    <div class="container">
+      <div class="dining-grid">
+        <div class="dining-content" data-aos="fade-right">
+          <div class="section-eyebrow">Culinary Arts</div>
+          <h2 class="section-title">Taste the <em>Extraordinary</em></h2>
+          <div class="gold-divider"></div>
+          <p class="about-lead">Three Michelin-starred restaurants, a rooftop bar, and a patisserie that has redefined dessert since 1924.</p>
+          <div class="dining-list">
+            <div class="dining-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="dining-num">01</div>
+              <div>
+                <h4>Aurum Restaurant</h4>
+                <p>French-Asian fusion with seasonal tasting menus. 2 Michelin Stars.</p>
+              </div>
+            </div>
+            <div class="dining-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="dining-num">02</div>
+              <div>
+                <h4>The Ember Grill</h4>
+                <p>Prime dry-aged steaks, whole-roasted fish, live fire cooking. 1 Michelin Star.</p>
+              </div>
+            </div>
+            <div class="dining-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="dining-num">03</div>
+              <div>
+                <h4>Sky Lounge & Bar</h4>
+                <p>Craft cocktails, rare whiskies, and Japanese-inspired small plates at 45 floors up.</p>
+              </div>
+            </div>
+            <div class="dining-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="dining-num">04</div>
+              <div>
+                <h4>Le Patisserie</h4>
+                <p>Artisanal pastries, afternoon high tea, and handmade chocolates daily from 7AM.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn-primary">Make a Reservation</a>
+        </div>
+        <div class="dining-visual" data-aos="fade-left">
+          <div class="dining-img-stack">
+            <img class="d-img-1" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=80" alt="Fine Dining" loading="lazy" />
+            <img class="d-img-2" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&q=80" alt="Cuisine" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ GALLERY ══════════════ -->
+  <section id="gallery" class="section-gallery">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-eyebrow">Visual Journey</div>
+        <h2 class="section-title">Our <em>Gallery</em></h2>
+        <div class="gold-divider center"></div>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item g-tall" data-aos="fade-up">
+        <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800&q=80" alt="Hotel Pool" loading="lazy" />
+        <div class="gallery-hover"><span>Rooftop Pool</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&q=80" alt="Lobby" loading="lazy" />
+        <div class="gallery-hover"><span>Grand Lobby</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1551918120-9739cb430c6d?w=600&q=80" alt="Spa" loading="lazy" />
+        <div class="gallery-hover"><span>Aurum Spa</span></div>
+      </div>
+      <div class="gallery-item g-wide" data-aos="fade-up" data-aos-delay="300">
+        <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=900&q=80" alt="Restaurant" loading="lazy" />
+        <div class="gallery-hover"><span>Fine Dining</span></div>
+      </div>
+      <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=600&q=80" alt="Suite" loading="lazy" />
+        <div class="gallery-hover"><span>Luxury Suite</span></div>
+      </div>
+      <div class="gallery-item g-tall" data-aos="fade-up" data-aos-delay="200">
+        <img src="https://images.unsplash.com/photo-1587381420270-3e1a5b9e6904?w=600&q=80" alt="Ballroom" loading="lazy" />
+        <div class="gallery-hover"><span>Grand Ballroom</span></div>
+      </div>
+    </div>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lbClose">✕</button>
+      <button class="lightbox-prev" id="lbPrev">‹</button>
+      <button class="lightbox-next" id="lbNext">›</button>
+      <img id="lbImg" src="" alt="" />
+      <div class="lightbox-caption" id="lbCaption"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ TESTIMONIALS ══════════════ -->
+  <section class="section-testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-eyebrow">Guest Voices</div>
+        <h2 class="section-title">What Guests <em>Say</em></h2>
+        <div class="gold-divider center"></div>
+      </div>
+      <div class="testimonials-slider" id="testimonialsSlider">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-quote">"The most extraordinary hotel I have ever visited. The Grand Aurum doesn't just offer a stay — it offers a transformation. Every staff member remembered my name."</p>
+            <div class="t-author">
+              <div class="t-avatar">VR</div>
+              <div>
+                <strong>Victoria Rothschild</strong>
+                <span>CEO, Rothschild Capital — London</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-quote">"Our wedding was nothing short of a fairy tale. The Grand Ballroom, the flowers, the food — every detail was handled with an obsessive care I've never experienced elsewhere."</p>
+            <div class="t-author">
+              <div class="t-avatar">JM</div>
+              <div>
+                <strong>James & Mei Lin</strong>
+                <span>Newlyweds — Singapore</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-quote">"The Royal Penthouse suite is an experience in itself. Waking up to a 360° city view with your private chef preparing breakfast — this is what it means to truly live well."</p>
+            <div class="t-author">
+              <div class="t-avatar">AK</div>
+              <div>
+                <strong>Ahmed Al-Khalid</strong>
+                <span>Business Magnate — Dubai</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="t-stars">★★★★★</div>
+            <p class="t-quote">"The Aurum Spa deserves its own address. The gold therapy treatment was transcendental. I left feeling like a completely different person — younger, lighter, and absolutely glowing."</p>
+            <div class="t-author">
+              <div class="t-avatar">CL</div>
+              <div>
+                <strong>Claudia Laurent</strong>
+                <span>Fashion Designer — Paris</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="t-dots" id="tDots"></div>
+        <div class="t-nav">
+          <button id="tPrev" class="t-btn">←</button>
+          <button id="tNext" class="t-btn">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ BOOKING ══════════════ -->
+  <section id="booking" class="section-booking">
+    <div class="container">
+      <div class="booking-wrapper" data-aos="fade-up">
+        <div class="booking-header">
+          <div class="section-eyebrow">Reservations</div>
+          <h2 class="section-title">Begin Your <em>Journey</em></h2>
+          <div class="gold-divider center"></div>
+        </div>
+        <div class="booking-form-wrap">
+          <div class="booking-form">
+            <div class="form-group">
+              <label>Check-In</label>
+              <input type="date" id="checkin" />
+            </div>
+            <div class="form-group">
+              <label>Check-Out</label>
+              <input type="date" id="checkout" />
+            </div>
+            <div class="form-group">
+              <label>Room Type</label>
+              <select id="roomType">
+                <option value="">Select Room</option>
+                <option>Deluxe City Room — $480/night</option>
+                <option>Junior Suite — $780/night</option>
+                <option>Grand Suite — $1,200/night</option>
+                <option>Sky Villa — $3,200/night</option>
+                <option>Royal Penthouse — $4,800/night</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Guests</label>
+              <select id="guests">
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4+ Guests</option>
+              </select>
+            </div>
+            <div class="form-group form-full">
+              <label>Full Name</label>
+              <input type="text" placeholder="Your full name" id="guestName" />
+            </div>
+            <div class="form-group form-full">
+              <label>Email Address</label>
+              <input type="email" placeholder="your@email.com" id="guestEmail" />
+            </div>
+            <div class="form-group form-full">
+              <label>Special Requests</label>
+              <textarea placeholder="Anniversary setup, dietary requirements, early check-in..." id="requests"></textarea>
+            </div>
+            <div class="form-full">
+              <button class="btn-primary btn-booking" id="bookingBtn">
+                <span>Confirm Reservation</span>
+                <span class="btn-arrow">→</span>
+              </button>
+            </div>
+          </div>
+          <div class="booking-summary" id="bookingSummary">
+            <h4>Booking Summary</h4>
+            <div class="summary-row"><span>Check-in</span><span id="sumCheckin">—</span></div>
+            <div class="summary-row"><span>Check-out</span><span id="sumCheckout">—</span></div>
+            <div class="summary-row"><span>Room</span><span id="sumRoom">—</span></div>
+            <div class="summary-row"><span>Guests</span><span id="sumGuests">—</span></div>
+            <div class="summary-divider"></div>
+            <div class="summary-row total"><span>Estimated Total</span><span id="sumTotal">—</span></div>
+            <p class="summary-note">✦ Complimentary breakfast included<br>✦ Free cancellation within 48hrs<br>✦ Best rate guaranteed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+      <div class="modal-box">
+        <div class="modal-icon">✦</div>
+        <h3>Reservation Confirmed!</h3>
+        <p>Thank you, <span id="modalName"></span>. Your reservation at Grand Aurum has been received. Our concierge will contact you within 2 hours.</p>
+        <button class="btn-primary" id="modalClose">Wonderful, Thank You</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section id="contact" class="section-contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <div class="section-eyebrow">Get in Touch</div>
+          <h2 class="section-title">We're <em>Here</em> for You</h2>
+          <div class="gold-divider"></div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="c-icon">⊕</div>
+              <div>
+                <strong>Address</strong>
+                <p>1 Grand Aurum Boulevard<br>Manhattan, New York, NY 10001</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">⊕</div>
+              <div>
+                <strong>Reservations</strong>
+                <p>+1 (800) 428-7866<br>reservations@grandaurum.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="c-icon">⊕</div>
+              <div>
+                <strong>Concierge</strong>
+                <p>Available 24 hours / 7 days<br>concierge@grandaurum.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap" data-aos="fade-left">
+          <div class="contact-form">
+            <div class="cf-group">
+              <input type="text" placeholder="Your Name" class="cf-input" />
+            </div>
+            <div class="cf-group">
+              <input type="email" placeholder="Email Address" class="cf-input" />
+            </div>
+            <div class="cf-group">
+              <select class="cf-input">
+                <option value="">Inquiry Type</option>
+                <option>Room Reservation</option>
+                <option>Spa Booking</option>
+                <option>Dining Reservation</option>
+                <option>Event Planning</option>
+                <option>Corporate Stay</option>
+                <option>General Inquiry</option>
+              </select>
+            </div>
+            <div class="cf-group">
+              <textarea class="cf-input" placeholder="Your message..." rows="5"></textarea>
+            </div>
+            <button class="btn-primary btn-contact">Send Message →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-mark">GA</span>
+            <div class="logo-text">
+              <span class="logo-main">Grand Aurum</span>
+              <span class="logo-sub">Hotel & Resorts</span>
+            </div>
+          </div>
+          <p>Where every guest is a legend, every stay is a story, and luxury is not a choice — it's a standard.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram">in</a>
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Twitter">X</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#rooms">Rooms & Suites</a></li>
+            <li><a href="#dining">Restaurants</a></li>
+            <li><a href="#amenities">Spa & Wellness</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#">Events & Weddings</a></li>
+            <li><a href="#">Corporate Packages</a></li>
+            <li><a href="#">Gift Vouchers</a></li>
+            <li><a href="#">Loyalty Programme</a></li>
+            <li><a href="#">Transfers</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Cancellation Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2024 Grand Aurum Hotel & Resorts. All rights reserved.</p>
+        <p>Crafted with <span style="color:var(--gold)">✦</span> in New York</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════ BACK TO TOP ══════════════ -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
